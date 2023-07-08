@@ -1,6 +1,6 @@
 
 async function fetchProfileData() {
-    const url = 'https://raw.githubusercontent.com/jeffersonkako/meu-site/main/data/profile.json';
+    const url = 'https://github.com/Gonsallez1/Site1/blob/main/data/profile.json';
     const response = await fetch(url)
     const profileData = await response.json()
     return profileData
